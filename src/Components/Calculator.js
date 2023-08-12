@@ -46,7 +46,7 @@ const Calculator=()=>{
             </div>
             <div className="result">
                 {
-                     result=='Invalid input'?(
+                     result==='Invalid input'?(
                         <div className="error">Error</div>
                      ):(
                         <div className="success">Success</div>
